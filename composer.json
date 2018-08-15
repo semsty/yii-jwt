@@ -1,0 +1,35 @@
+{
+    "name": "semsty/yii-jwt",
+    "description": "yii2 jwt",
+    "keywords": ["yii", "jwt"],
+    "type": "project",
+    "authors": [
+        {
+            "name": "Semen Khristy",
+            "email": "khristysp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "~2.0.15",
+        "firebase/php-jwt": "dev-master",
+        "workerman/workerman": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.1.0"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "semsty\\jwt\\": "src"
+        }
+    }
+}

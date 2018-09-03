@@ -1,6 +1,6 @@
 <?php
 
-namespace common\core\traits;
+namespace semsty\jwt;
 
 use \Firebase\JWT\JWT;
 use yii\web\NotFoundHttpException;

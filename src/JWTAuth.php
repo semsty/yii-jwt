@@ -1,6 +1,6 @@
 <?php
 
-namespace common\components;
+namespace semsty\jwt;
 
 use yii\filters\auth\HttpBearerAuth;
 
